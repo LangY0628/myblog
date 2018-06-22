@@ -1,0 +1,148 @@
+body {
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+}
+.hi-top {
+    margin:2px 0 2px 0;
+}
+.nav-a{
+    color: #9d9d9d;
+}
+.nav-a:hover {
+    color: white;
+}
+.right {
+    width: 300px;
+    float: right;
+    margin-left: 15px;
+}
+.content {
+    width: 100%;
+    float: none;
+}
+
+.remove-span {
+    display: none;
+}
+.breadcrumb-li> li + li:before {
+    content: "";
+}
+.breadcrumb-remove {
+    margin-bottom: 0;
+    padding-left: 0;
+}
+.well-top{
+    margin-bottom: 15px;
+}
+.content>div
+.content-banner {
+    margin-bottom: 15px;
+}
+pre {
+    padding: 0;
+}
+.word {
+    margin-left: 25px;
+}
+.bread-hide {
+    display: none;
+}
+.media-span-left {
+    color: #337ab7;
+}
+.media-span-right {
+    float: left;
+}
+.navbar-bottom {
+    margin-bottom: 15px;
+}
+.title {
+    font-size: 18px;
+    float: left;
+    color: #337ab7;
+}
+.header-media {
+    margin-bottom: 0px;
+}
+.subscript {
+    color: #337ab7;
+    text-align: right;
+}
+.subscript1 {
+    color: #337ab7;
+    float: right;
+}
+.title-b {
+    font-weight: 600;
+}
+.panel-color {
+    border-color: #337ab7;
+}
+.download-title {
+    border-left: groove 7px;
+}
+.margin-xx {
+    margin: 20px;
+}
+.media-heading-alter {
+    margin-bottom: 0;
+}
+/*p {*/
+    /*margin-bottom: 0;*/
+/*}*/
+@media (max-width: 767px) {
+    .hi-top span {
+        font-size: 13px;
+    }
+    .right {
+        display: none;
+    }
+    .header-banner{
+        height: 50px;!important;
+        width: 767px;
+    }
+}/*在小于768像素的屏幕里,这里的样式才生效*/
+@media (min-width: 768px) and (max-width: 991px) {
+    .brand {
+        padding-left: 0px
+    }
+    .hi-top span {
+        font-size: 13px;
+    }
+    .right {
+        display: none;
+    }
+    .remove-span {
+        display: inline;
+    }
+
+}/*在768和991像素之间的屏幕里,这里的样式才生效*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .brand {
+        padding-left: 0px
+    }
+    .right {
+        display: none;
+    }
+    .remove-span {
+        display: inline;
+    }
+    .bread-hide {
+        display: inline;
+    }
+} /*在992和1199像素之间的屏幕里,这里的样式才生效*/
+@media (min-width: 1200px) {
+    .brand {
+        padding-left: 0px
+    }
+    .content {
+        float: right;
+        width: 72%;
+    }
+    .remove-span {
+        display: inline;
+    }
+    .bread-hide {
+        display: inline;
+    }
+}   /*在大于1200像素的屏幕里,这里的样式才生效*/
+
